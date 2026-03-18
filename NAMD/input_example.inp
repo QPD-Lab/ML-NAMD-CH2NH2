@@ -1,0 +1,15 @@
+$dynamics
+parallel=MPI
+maximum_propagation_time=5.0 # fs
+time_step= 0.2 #fs
+traj_number = 4
+nstates=3
+nens=2 # number of models in an ensemble
+initial_state = 2
+model_path="/home/foo/bar"
+model_names =f"MACE_x_with_forces_finetuned_s{0..2}_fixed_{0,3}_stagetwo.model.cpu"
+multihead=false
+save_xyz=True
+result_dir="result_xyz/"
+dump_trajectory_interval=10
+$end

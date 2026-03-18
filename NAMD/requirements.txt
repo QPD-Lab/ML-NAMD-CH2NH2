@@ -1,0 +1,13 @@
+numpy==1.26.4
+ase==3.28.0
+scipy==1.17.1
+torch==2.4.1
+torch-ema==0.3
+torch-runstats==0.2.0
+torchani==2.2.4
+torchmetrics==1.4.1
+mace-torch==0.3.13
+joblib==1.4.2
+mlatom==3.17.3
+mpi4py==4.1.1
+
