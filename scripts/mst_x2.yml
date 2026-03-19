@@ -1,0 +1,24 @@
+heads:
+    XMCQDPT2_S0:
+        train_file: "dataset_x/x_with_forces_0K+5000K+ci_s0_train_v2.xyz"
+        valid_file: "dataset_x/x_with_forces_0K+5000K+ci_s0_val_v2.xyz"
+        test_file: "dataset_x/x_with_forces_0K+5000K+ci_s0_test_v2.xyz"
+        E0s: "e0s_cas_s0.json"
+        energy_key: "REF_energy"
+        forces_key: "REF_forces"
+
+    XMCQDPT2_S1:
+        train_file: "dataset_x/x_with_forces_0K+5000K+ci_s1_train_v2.xyz"
+        valid_file: "dataset_x/x_with_forces_0K+5000K+ci_s1_val_v2.xyz"
+        test_file: "dataset_x/x_with_forces_0K+5000K+ci_s1_test_v2.xyz"
+        E0s: "e0s_cas_s0.json"
+        energy_key: "REF_energy"
+        forces_key: "REF_forces"
+        
+    XMCQDPT2_S2:
+        train_file: "dataset_x/x_with_forces_0K+5000K+ci_s2_train_v2.xyz"
+        valid_file: "dataset_x/x_with_forces_0K+5000K+ci_s2_val_v2.xyz"
+        test_file: "dataset_x/x_with_forces_0K+5000K+ci_s2_test_v2.xyz"
+        E0s: "e0s_cas_s0.json"
+        energy_key: "REF_energy"
+        forces_key: "REF_forces"
